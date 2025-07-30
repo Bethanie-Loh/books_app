@@ -48,7 +48,6 @@ function Fiction() {
           <Card className="shadow-sm p-4">
             <h2 className="mb-4 text-center">📖 Fiction Books</h2>
 
-            {/* Filter and Sort Section */}
             <Row className="gy-3">
               <Col xs={12} md={6}>
                 <Form.Label className="fw-bold">Filter By Genre:</Form.Label>
@@ -75,7 +74,6 @@ function Fiction() {
               </Col>
             </Row>
 
-            {/* Table Section */}
             {loading ? (
               <div className="text-center mt-5">
                 <Spinner animation="border" variant="primary" />

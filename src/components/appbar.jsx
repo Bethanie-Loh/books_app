@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 function AppBar() {
   const location = useLocation();
 
-  // Function to add active styling
   const getLinkStyle = (path) => ({
     fontWeight: "bold",
     fontSize: 18,

@@ -52,7 +52,6 @@ function Non_Fiction() {
         <Col xs={11} md={10}>
           <h2 className="mb-4 text-center">📚 Non-Fiction Books</h2>
 
-          {/* Search and Books Per Page Controls */}
           <Row className="gy-3 mb-4">
             <Col xs={12} md={6}>
               <Form.Label className="fw-bold">
@@ -84,7 +83,6 @@ function Non_Fiction() {
             </Col>
           </Row>
 
-          {/* Book Cards Section */}
           {loading ? (
             <div className="text-center mt-5">
               <Spinner animation="border" variant="primary" />
@@ -129,7 +127,6 @@ function Non_Fiction() {
                 ))}
               </Row>
 
-              {/* Pagination Buttons */}
               <div className="text-center">
                 <Button
                   variant="secondary"
