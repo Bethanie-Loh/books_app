@@ -80,7 +80,7 @@ function Non_Fiction() {
           >
             <option value={3}>3</option>
             <option value={6}>6</option>
-            <option value={9}>9</option>
+            <option value={9}>10</option>
           </Form.Select>
         </div>
       </div>
