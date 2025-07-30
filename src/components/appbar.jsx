@@ -35,13 +35,3 @@ function AppBar() {
 
 export default AppBar;
 
-
-`
-npm create vite@latest my-vue-app -- --template react
-
-npm install
-npm run dev
-
-npm uninstall vite
-npm install vite@4.5.2 --save-dev
-`;
